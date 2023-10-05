@@ -38,7 +38,7 @@ varlist <- names(DF.input)[8:ncol(DF.input)]
 glmmm_D <- lapply(varlist, function(x) {
   suppressWarnings({
     
-    to_glm <- glm(substitute(`Case-Control` ~ i + PC1 + PC2 + PC3 + PC4   , list(i = as.name(x))), data=DF.input, family='binomial')
+    glmm <- glm(substitute(`Case-Control` ~ i + PC1 + PC2 + PC3 + PC4   , list(i = as.name(x))), data=DF.input, family='binomial')
     
   })})
 
