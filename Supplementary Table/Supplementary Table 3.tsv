@@ -1,0 +1,9 @@
+Supplementary Table 3. Targeting cancer types for 6 significantly enriched cancer predisposition genes		
+		
+Gene Symbol	Tumour Types from Cancer Census and Rahman et al.	Matched cancer type in PCAWG
+ATM	leukaemia, lymphoma, medulloblastoma, glioma	CNS-GBM, CNS-Medullo, CNS-PiloAstro, CNS-Oligo, Lymph-BNHL, Lymph-CLL
+BRCA1	breast, ovarian	Breast-AdenoCA, Ovary-AdenoCA
+BRCA2	breast, ovarian, pancreatic, leukaemia  (FANCB, FANCD1)	Breast-AdenoCA, Ovary-AdenoCA
+BUB1B	rhabdomyosarcoma	
+GJB2	Squamous cell carcinoma	Lung-SCC
+FAH	Hepatocellular carcinoma	Liver-HCC
